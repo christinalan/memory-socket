@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>memory swap</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lateef&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>MEMORY SWAP</h1>
+    <div class="both-containers">
+      <div class="good-container">
+        <input id="good-memories" type="text" class="input" />
+        <button id="button-good" class="log-button">Store the good</button>
+      </div>
+      <div class="good-container">
+        <input id="bad-memories" type="text" class="input" />
+        <button id="button-bad" class="log-button">Dump the bad</button>
+      </div>
+    </div>
+
+    <div class="trackers">
+      <div class="mem-box" id="happy-info"></div>
+
+      <div class="mem-box" id="bad-info"></div>
+    </div>
+    <!-- <button id="trash-image"><img class="image" src="trash.jpg" /></button> -->
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
